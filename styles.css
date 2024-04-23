@@ -1,0 +1,69 @@
+body
+{
+  display: flex;
+  justify-content: center;
+}
+
+.container
+{
+  display: flex;
+  border-radius: 15px;
+  flex-direction: column;
+  background-color: grey;
+  height: 500px;
+  width: 250px;
+}
+
+.display
+{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border: red solid;
+  height: 40%;
+}
+
+.num
+{
+  color: white;
+  font-size: 50px;
+  font-family: roboto;
+  font-weight: 200;
+  margin-right: 10px;
+  margin-bottom: 1px;
+}
+
+.buttons
+{
+  display: flex;
+  flex-direction: column;
+  border: blue solid;
+  height: 60%;
+}
+
+.row
+{
+  display: flex;
+  height: 20%;
+  justify-content: space-around;
+}
+
+.row button
+{
+  flex: 1;
+  padding: 10px;
+}
+
+/* Clear Button */
+.row-1 .clear
+{
+  flex: 4.3;
+}
+
+/* Zero Button */
+.row-5 .digit
+{
+  flex: 4.3;
+}
+
+
