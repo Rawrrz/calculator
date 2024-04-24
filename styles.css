@@ -9,9 +9,10 @@ body
   display: flex;
   border-radius: 15px;
   flex-direction: column;
-  background-color: grey;
+  background-color: #eea4bb;
   height: 500px;
   width: 250px;
+  margin-top: 15%;
 }
 
 .display
@@ -19,7 +20,7 @@ body
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  border: red solid;
+  flex-wrap: wrap;
   height: 40%;
 }
 
@@ -33,12 +34,45 @@ body
   margin-bottom: 1px;
 }
 
+.clear
+{
+  border-radius: 15px;
+  border-style: none;
+  background: #ffc0cb;
+  color: white;
+}
+
 .buttons
 {
+  padding: 10px;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: column;
-  border: blue solid;
   height: 60%;
+}
+
+.operator
+{
+  font-size: 25px;
+  color: white;
+  border-style: none;
+  border-radius: 15px;
+  background-color: #d11799;
+}
+
+.digit
+{
+  font-size: 25px;
+  color: white;
+  border-style: none;
+  border-radius: 15px;
+  background-color: #5c3641;
+}
+
+.digit:hover
+{
+  color: red;
+  background-color: pink;
 }
 
 .row
@@ -50,20 +84,21 @@ body
 
 .row button
 {
+  box-shadow: 5px 4px 3px 0.02px #2a2022;
   flex: 1;
-  padding: 10px;
+  margin: 3.5px;
 }
 
 /* Clear Button */
 .row-1 .clear
 {
-  flex: 4.3;
+  flex: 3.3;
 }
 
 /* Zero Button */
 .row-5 .digit
 {
-  flex: 4.3;
+  flex: 3.3;
 }
 
 
